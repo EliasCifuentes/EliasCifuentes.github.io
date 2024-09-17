@@ -1,0 +1,40 @@
+/* Estilo de letras*/
+@import url('https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=swap');
+
+
+/*Logo*/
+
+div > .mi-logo{
+    font-family: "Eczar", serif;
+    color: rgb(221, 183, 13);
+    font-size: 2em;
+}
+
+/*Menu Navegacion*/
+
+.nav-link:hover {
+    color:rgb(221, 183, 13)  !important;
+  }
+
+/* Fondo Header */
+
+#hero-section{
+    background-image: url(../img/fondo1.jpg);
+}
+
+/* Efecto Parallax */
+
+
+.seccion1 {
+    background: url(../img/fondo3.jpg);
+    background-position: bottom center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+}
+
+

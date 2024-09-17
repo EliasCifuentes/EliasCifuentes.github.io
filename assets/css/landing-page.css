@@ -1,0 +1,88 @@
+/* Color de fondo de toda la pagina */
+
+body {
+    background-color:rgb(246, 246, 226);
+    margin: 1%;
+}
+
+/* Se carga imagen de fondo para el header */
+header {
+    padding: 10%;
+    background-image: url(../img/imagen-header.jpg);
+    background-position: center;
+}
+
+/* Estilo para titulo de la tienda */
+header h1 {
+    color: yellow;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 8em; 
+    margin: 1%;
+}
+
+/* Estilo para la descripcion en el Header */
+header h2 {
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+/* Seccion main donde van los productos */ 
+
+main {
+    margin: 2%;
+}
+
+main h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 3.5em;
+}
+
+/* Tabla donde va la lista de los productos */ 
+table td {
+    padding: 0.5%;
+    height: auto;
+    width: 50%;
+}
+
+/* Ajusto la imagen en relacion al tamaño de la celda */ 
+td img {
+    width: 100%;
+    height: auto;
+
+}
+
+/* Estilo para alinear el texto a la izquierda */
+.producto {
+    text-align: left;
+    padding: 2%;
+}
+
+.producto h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2.5em;
+}
+
+.producto p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+}
+
+/* Pie de Pagina */
+
+/* fondo negro para el pie de pagina */ 
+footer{
+    background-color: black; 
+    text-align: center;
+    height: auto;
+    padding: 1.5%;
+}
+/* letras amarillas para el texto en pie de pagina */ 
+
+footer p{
+    color: yellow;
+    font-size: 2em;
+}
